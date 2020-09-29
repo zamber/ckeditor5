@@ -7,7 +7,7 @@
  * @module engine/view/observer/domeventdata
  */
 
-import { extend } from 'lodash-es';
+import { extend } from 'lodash/extend';
 
 /**
  * Information about a DOM event in context of the {@link module:engine/view/document~Document}.

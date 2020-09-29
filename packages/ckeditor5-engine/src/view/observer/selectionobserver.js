@@ -11,7 +11,7 @@
 
 import Observer from './observer';
 import MutationObserver from './mutationobserver';
-import { debounce } from 'lodash-es';
+import { debounce } from 'lodash/debounce';
 
 /**
  * Selection observer class observes selection changes in the document. If selection changes on the document this

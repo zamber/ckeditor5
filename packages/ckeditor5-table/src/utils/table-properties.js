@@ -7,7 +7,7 @@
  * @module table/utils/table-properties
  */
 
-import { isObject } from 'lodash-es';
+import { isObject } from 'lodash/isObject';
 
 /**
  * Returns a string if all four values of box sides are equal.

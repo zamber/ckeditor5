@@ -12,7 +12,7 @@ import { getOptimalPosition } from '@ckeditor/ckeditor5-utils/src/dom/position';
 import isRange from '@ckeditor/ckeditor5-utils/src/dom/isrange';
 import toUnit from '@ckeditor/ckeditor5-utils/src/dom/tounit';
 import global from '@ckeditor/ckeditor5-utils/src/dom/global';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 
 import '../../../theme/components/panel/balloonpanel.css';
 

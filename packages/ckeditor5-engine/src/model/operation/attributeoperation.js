@@ -11,7 +11,7 @@ import Operation from './operation';
 import Range from '../range';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 import { _setAttribute } from './utils';
-import { isEqual } from 'lodash-es';
+import { isEqual } from 'lodash/isEqual';
 
 /**
  * Operation to change nodes' attribute.

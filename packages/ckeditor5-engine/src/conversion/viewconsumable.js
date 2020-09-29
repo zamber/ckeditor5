@@ -7,7 +7,7 @@
  * @module engine/conversion/viewconsumable
  */
 
-import { isArray } from 'lodash-es';
+import { isArray } from 'lodash/isArray';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 
 /**

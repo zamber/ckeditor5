@@ -11,7 +11,7 @@ import isRange from './isrange';
 import isWindow from './iswindow';
 import getBorderWidths from './getborderwidths';
 import isText from './istext';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 
 const rectProperties = [ 'top', 'right', 'bottom', 'left', 'width', 'height' ];
 

@@ -16,7 +16,7 @@ import EmitterMixin from '@ckeditor/ckeditor5-utils/src/emittermixin';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
 import { isInsideSurrogatePair, isInsideCombinedSymbol } from '@ckeditor/ckeditor5-utils/src/unicode';
-import { clone } from 'lodash-es';
+import { clone } from 'lodash/clone';
 
 // @if CK_DEBUG_ENGINE // const { logDocument } = require( '../dev-utils/utils' );
 

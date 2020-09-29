@@ -17,7 +17,7 @@ import ViewAttributeElement from '../view/attributeelement';
 import DocumentSelection from '../model/documentselection';
 import ConversionHelpers from './conversionhelpers';
 
-import { cloneDeep } from 'lodash-es';
+import { cloneDeep } from 'lodash/cloneDeep';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 
 /**

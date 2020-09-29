@@ -9,7 +9,7 @@
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import TextWatcher from './textwatcher';
-import { escapeRegExp } from 'lodash-es';
+import { escapeRegExp } from 'lodash/escapeRegExp';
 
 // All named transformations.
 const TRANSFORMATIONS = {

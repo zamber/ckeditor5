@@ -14,7 +14,7 @@ import BalloonPanelView from '../../panel/balloon/balloonpanelview.js';
 import FocusTracker from '@ckeditor/ckeditor5-utils/src/focustracker';
 import Rect from '@ckeditor/ckeditor5-utils/src/dom/rect';
 import normalizeToolbarConfig from '../normalizetoolbarconfig';
-import { debounce } from 'lodash-es';
+import { debounce } from 'lodash/debounce';
 import ResizeObserver from '@ckeditor/ckeditor5-utils/src/dom/resizeobserver';
 import toUnit from '@ckeditor/ckeditor5-utils/src/dom/tounit';
 

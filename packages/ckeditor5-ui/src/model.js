@@ -9,7 +9,7 @@
 
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
 import ObservableMixin from '@ckeditor/ckeditor5-utils/src/observablemixin';
-import { extend } from 'lodash-es';
+import { extend } from 'lodash/extend';
 
 /**
  * The base MVC model class.

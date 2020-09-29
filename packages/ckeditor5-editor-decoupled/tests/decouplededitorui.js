@@ -16,7 +16,7 @@ import DecoupledEditorUIView from '../src/decouplededitoruiview';
 import { keyCodes } from '@ckeditor/ckeditor5-utils/src/keyboard';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';
 import { assertBinding } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 
 describe( 'DecoupledEditorUI', () => {
 	let editor, view, ui, viewElement;

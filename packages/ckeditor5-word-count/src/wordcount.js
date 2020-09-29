@@ -9,7 +9,8 @@
 
 import Plugin from '@ckeditor/ckeditor5-core/src/plugin';
 import { modelElementToPlainText } from './utils';
-import { throttle, isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
+import { throttle } from 'lodash/throttle';
 import View from '@ckeditor/ckeditor5-ui/src/view';
 import Template from '@ckeditor/ckeditor5-ui/src/template';
 import env from '@ckeditor/ckeditor5-utils/src/env';

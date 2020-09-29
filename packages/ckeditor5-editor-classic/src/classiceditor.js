@@ -16,7 +16,7 @@ import ClassicEditorUI from './classiceditorui';
 import ClassicEditorUIView from './classiceditoruiview';
 import getDataFromElement from '@ckeditor/ckeditor5-utils/src/dom/getdatafromelement';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 
 /**

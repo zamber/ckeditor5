@@ -17,7 +17,7 @@ import InlineEditorUIView from './inlineeditoruiview';
 import setDataInElement from '@ckeditor/ckeditor5-utils/src/dom/setdatainelement';
 import getDataFromElement from '@ckeditor/ckeditor5-utils/src/dom/getdatafromelement';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 import secureSourceElement from '@ckeditor/ckeditor5-core/src/editor/utils/securesourceelement';
 

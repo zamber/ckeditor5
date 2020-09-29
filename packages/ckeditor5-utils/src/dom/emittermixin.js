@@ -11,7 +11,7 @@ import { default as EmitterMixin, _getEmitterListenedTo, _setEmitterId } from '.
 import uid from '../uid';
 import isNode from './isnode';
 import isWindow from './iswindow';
-import { extend } from 'lodash-es';
+import { extend } from 'lodash/extend';
 
 /**
  * Mixin that injects the DOM events API into its host. It provides the API

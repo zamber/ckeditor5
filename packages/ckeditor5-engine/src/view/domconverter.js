@@ -23,7 +23,7 @@ import indexOf from '@ckeditor/ckeditor5-utils/src/dom/indexof';
 import getAncestors from '@ckeditor/ckeditor5-utils/src/dom/getancestors';
 import getCommonAncestor from '@ckeditor/ckeditor5-utils/src/dom/getcommonancestor';
 import isText from '@ckeditor/ckeditor5-utils/src/dom/istext';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 
 // eslint-disable-next-line new-cap
 const BR_FILLER_REF = BR_FILLER( document );

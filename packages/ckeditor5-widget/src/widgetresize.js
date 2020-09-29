@@ -14,7 +14,7 @@ import global from '@ckeditor/ckeditor5-utils/src/dom/global';
 import ObservableMixin from '@ckeditor/ckeditor5-utils/src/observablemixin';
 import MouseObserver from '@ckeditor/ckeditor5-engine/src/view/observer/mouseobserver';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
-import { throttle } from 'lodash-es';
+import { throttle } from 'lodash/throttle';
 
 import '../theme/widgetresize.css';
 

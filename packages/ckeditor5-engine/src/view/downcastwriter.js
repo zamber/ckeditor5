@@ -20,7 +20,7 @@ import DocumentFragment from './documentfragment';
 import isIterable from '@ckeditor/ckeditor5-utils/src/isiterable';
 import Text from './text';
 import EditableElement from './editableelement';
-import { isPlainObject } from 'lodash-es';
+import { isPlainObject } from 'lodash/isPlainObject';
 
 /**
  * View downcast writer.

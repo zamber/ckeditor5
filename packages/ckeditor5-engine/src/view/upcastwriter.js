@@ -10,7 +10,7 @@
 import DocumentFragment from './documentfragment';
 import Element from './element';
 import Text from './text';
-import { isPlainObject } from 'lodash-es';
+import { isPlainObject } from 'lodash/isPlainObject';
 import Position from './position';
 import Range from './range';
 import Selection from './selection';

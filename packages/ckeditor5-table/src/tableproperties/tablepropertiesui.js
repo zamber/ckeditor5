@@ -25,7 +25,7 @@ import {
 	getLocalizedColorOptions,
 	normalizeColorOptions
 } from '@ckeditor/ckeditor5-ui/src/colorgrid/utils';
-import { debounce } from 'lodash-es';
+import { debounce } from 'lodash/debounce';
 import { getTableWidgetAncestor } from '../utils/ui/widget';
 import { getBalloonTablePositionData, repositionContextualBalloon } from '../utils/ui/contextualballoon';
 

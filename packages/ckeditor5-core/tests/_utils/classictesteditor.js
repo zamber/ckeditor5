@@ -13,7 +13,7 @@ import ElementReplacer from '@ckeditor/ckeditor5-utils/src/elementreplacer';
 import InlineEditableUIView from '@ckeditor/ckeditor5-ui/src/editableui/inline/inlineeditableuiview';
 import getDataFromElement from '@ckeditor/ckeditor5-utils/src/dom/getdatafromelement';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 
 /**

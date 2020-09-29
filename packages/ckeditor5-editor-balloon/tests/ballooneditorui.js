@@ -12,7 +12,7 @@ import VirtualTestEditor from '@ckeditor/ckeditor5-core/tests/_utils/virtualtest
 import BalloonToolbar from '@ckeditor/ckeditor5-ui/src/toolbar/balloon/balloontoolbar';
 import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import { keyCodes } from '@ckeditor/ckeditor5-utils/src/keyboard';
-import { isElement } from 'lodash-es';
+import { isElement } from 'lodash/isElement';
 
 import { assertBinding } from '@ckeditor/ckeditor5-utils/tests/_utils/utils';
 import testUtils from '@ckeditor/ckeditor5-core/tests/_utils/utils';

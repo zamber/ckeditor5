@@ -8,7 +8,7 @@
  */
 
 import isIterable from '../isiterable';
-import { isString } from 'lodash-es';
+import { isString } from 'lodash/isString';
 
 /**
  * Creates element with attributes and children.

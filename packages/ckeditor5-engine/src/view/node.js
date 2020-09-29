@@ -11,7 +11,7 @@ import CKEditorError from '@ckeditor/ckeditor5-utils/src/ckeditorerror';
 import EmitterMixin from '@ckeditor/ckeditor5-utils/src/emittermixin';
 import mix from '@ckeditor/ckeditor5-utils/src/mix';
 import compareArrays from '@ckeditor/ckeditor5-utils/src/comparearrays';
-import { clone } from 'lodash-es';
+import { clone } from 'lodash/clone';
 
 // To check if component is loaded more than once.
 import '@ckeditor/ckeditor5-utils/src/version';

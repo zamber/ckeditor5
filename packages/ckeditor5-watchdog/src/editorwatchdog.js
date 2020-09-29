@@ -9,7 +9,9 @@
 
 /* globals console */
 
-import { throttle, cloneDeepWith, isElement } from 'lodash-es';
+import { cloneDeepWith } from 'lodash/cloneDeepWith';
+import { isElement } from 'lodash/isElement';
+import { throttle } from 'lodash/throttle';
 import areConnectedThroughProperties from './utils/areconnectedthroughproperties';
 import Watchdog from './watchdog';
 
